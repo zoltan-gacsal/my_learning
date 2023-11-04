@@ -1,7 +1,8 @@
 import './App.css';
-import axios from 'axios';
 import Navbar from './Components/Navbar/Navbar';
 import Header from './Components/Header/Header';
+import Main from './Components/Main/Main';
+import NewsDisplay from './Components/NewsDisplay/NewsDisplay';
 
 function App() {
   
@@ -10,7 +11,9 @@ function App() {
     
     <Navbar />
     <Header />
-    
+    <Main />
+    <NewsDisplay />
+
   </div>
  )
   
